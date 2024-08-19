@@ -1,24 +1,60 @@
-dateModified: 1721551878
+dateModified: 1721717266
 email:
   fromEmail: admin@gmail.com
   fromName: 'Craft Coffee'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  drinks:
+    hasUrls: true
+    name: Drinks
+    settings:
+      path: '@webroot/images/uploads/drinks'
+    type: craft\fs\Local
+    url: '@web/images/uploads/drinks'
+  users:
+    hasUrls: true
+    name: Users
+    settings:
+      path: '@webroot/images/uploads/users'
+    type: craft\fs\Local
+    url: '@web/images/uploads/users'
 meta:
   __names__:
+    1f3d2910-752c-40a9-b29b-6cf59b3b9851: 'User Password' # User Password
+    5fffb615-6101-472d-a9ec-349133948aaa: Simple # Simple
+    7a4208d1-f26a-471e-99a2-600ae542fc88: News # News
+    7d35da57-76f5-4ef0-9bc2-3de51dfc0c74: Drinks # Drinks
+    9e73a49f-1f2e-4a11-a4b2-2c3c8de692fc: 'Page Copy' # Page Copy
+    77dbfd46-2a13-415b-8f9f-ccac75689325: Users # Users
     85b21d30-6cb8-475c-8702-e68195f053c9: 'Craft Coffee' # Craft Coffee
+    4974d05b-aeff-4933-80d8-865848260007: 'User Username' # User Username
+    041823ef-4ee0-442c-a620-f904fc14b84d: News # News
+    81757dc1-081c-4b0e-923a-1c39ef685d35: Users # Users
+    142763a3-142b-475e-bb97-1de9857435a9: Users # Users
+    b1573dde-cf1e-418a-b204-b593ac89bb93: Drinks # Drinks
+    bdec4887-4c6b-4301-ac09-3ac61bbbe935: Introduction # Introduction
+    c3cd7605-23ed-4b00-aea5-bf2207e4274f: 'User Email' # User Email
     e1d43670-b30f-4045-9907-51f4ef317da4: 'Craft Coffee' # Craft Coffee
+    e41d0c71-cfcb-4270-ac75-ae1650c13bfd: Drinks # Drinks
     f833cb99-d2a1-4338-a189-5dfd5782d9bf: 'Public Schema' # Public Schema
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: 'Craft Coffee'
   retryDuration: null
   schemaVersion: 5.0.0.21
   timeZone: Asia/Jakarta
 users:
-  allowPublicRegistration: false
-  defaultGroup: null
+  allowPublicRegistration: true
+  deactivateByDefault: false
+  defaultGroup: ''
   photoSubpath: null
-  photoVolumeUid: null
+  photoVolumeUid: 81757dc1-081c-4b0e-923a-1c39ef685d35 # Users
   require2fa: false
   requireEmailVerification: true
+  validateOnPublicRegistration: false

@@ -1,0 +1,7 @@
+{
+    "plugins": "autoresize lists link image code",
+    "menubar": false,
+    "statusbar": false,
+    "toolbar": "undo redo | styles | bold italic strikethrough | bullist numlist | insertLink insertImage | hr | code",
+    "contextmenu": "craftLink linkchecker craftImage table spellchecker configurepermanentpen"
+}

@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: false
+entryTypes:
+  - 77dbfd46-2a13-415b-8f9f-ccac75689325 # Users
+handle: users
+maxAuthors: 1
+name: Users
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  e1d43670-b30f-4045-9907-51f4ef317da4: # Craft Coffee
+    enabledByDefault: true
+    hasUrls: true
+    template: users/_entry
+    uriFormat: 'users/{id}'
+type: channel

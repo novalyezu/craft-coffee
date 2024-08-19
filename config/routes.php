@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Site URL Rules
  *
@@ -9,4 +10,7 @@
  * https://craftcms.com/docs/4.x/routing.html
  */
 
-return [];
+return [
+  'api/graphql' => 'graphql/api',
+  'GET api/noval' => 'noval/noval/resolve-request'
+];

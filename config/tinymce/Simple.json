@@ -1,0 +1,7 @@
+{
+    "plugins": "autoresize lists",
+    "menubar": false,
+    "statusbar": false,
+    "toolbar": "bold italic",
+    "contextmenu": "table spellchecker configurepermanentpen"
+}

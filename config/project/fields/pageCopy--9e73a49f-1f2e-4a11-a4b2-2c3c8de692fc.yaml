@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: pageCopy
+instructions: null
+name: 'Page Copy'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: 5fffb615-6101-472d-a9ec-349133948aaa # Simple
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: true
+  entryTypes:
+    - b1573dde-cf1e-418a-b204-b593ac89bb93 # Drinks
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

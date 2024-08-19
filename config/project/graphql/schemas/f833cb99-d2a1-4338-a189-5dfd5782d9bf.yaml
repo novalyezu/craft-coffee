@@ -1,2 +1,6 @@
 isPublic: true
 name: 'Public Schema'
+scope:
+  - 'sites.e1d43670-b30f-4045-9907-51f4ef317da4:read' # Craft Coffee
+  - 'sections.7d35da57-76f5-4ef0-9bc2-3de51dfc0c74:read' # Drinks
+  - 'sections.7a4208d1-f26a-471e-99a2-600ae542fc88:read' # News

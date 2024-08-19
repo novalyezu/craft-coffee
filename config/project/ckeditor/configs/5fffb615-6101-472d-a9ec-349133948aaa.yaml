@@ -1,0 +1,36 @@
+headingLevels:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+name: Simple
+options:
+  alignment:
+    options:
+      - left
+      - center
+      - right
+  fontSize:
+    options:
+      - tiny
+      - small
+      - big
+      - huge
+toolbar:
+  - sourceEditing
+  - heading
+  - '|'
+  - alignment
+  - fontSize
+  - bold
+  - italic
+  - underline
+  - strikethrough
+  - blockQuote
+  - bulletedList
+  - numberedList
+  - link
+  - mediaEmbed
+  - insertImage
